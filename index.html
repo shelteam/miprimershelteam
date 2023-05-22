@@ -1,33 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi Página Web</title>
+  <title>Mi Portafolio Personal</title>
+  <style>
+      /* Estilos para el encabezado */
+  header {
+    background-color: #B22222;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #000000;
+    margin: 0;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  /* Estilos para las secciones */
+  section {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    color: #0a0a0a;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #CB99C9;
+    padding: 20px;
+    text-align: center;
+  }
+
+  </style>
+  <link rel="stylesheet" href="styles.css">   
 </head>
 <body>
   <header>
-    <h1>¡Bienvenido a mi primera página web!</h1>
+    <h1>Mi Nombre</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Acerca de mí</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Acerca de</a></li>
-      <li><a href="#">Contacto</a></li>
-    </ul>
-  </nav>
+  <main>
+    <section id="about">
+      <h2>Acerca de mí</h2>
+      <p>Soy Sheldon Calderón, auxiliar de operaciones logísticas en comercio internacional con experiencia en liquidaciones aduaneras y gestión eficiente de importaciones.</p>
+    </section>
 
-  <section>
-    <h2>Acerca de mí</h2>
-    <p>Soy un entusiasta de la tecnología y me apasiona crear páginas web.</p>
-  </section>
+    <section id="portfolio">
+      <h2>Portafolio</h2>
+      <p>Aquí puedes mostrar tus proyectos o trabajos realizados.</p>
+    </section>
 
-  <section>
-    <h2>Contacto</h2>
-    <p>Puedes contactarme enviándome un correo electrónico a <a href="mailto:info@example.com">info@example.com</a>.</p>
-  </section>
+    <section id="skills">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Habilidad 1</li>
+        <li>Habilidad 2</li>
+        <li>Habilidad 3</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>Puedes contactarme a través de los siguientes medios:</p>
+      <ul>
+        <li>Teléfono: XXX-XXXX</li>
+        <li>Email: correo@example.com</li>
+      </ul>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
+    <p>&copy; 2023 Sheldon Calderón</p>
   </footer>
 </body>
 </html>
